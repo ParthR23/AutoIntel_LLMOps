@@ -1,4 +1,3 @@
-# src/agent/prompts.py
 
 RAG_SYSTEM_PROMPT = """
 You are a professional automotive service assistant. Use the following pieces of retrieved context from vehicle manuals to answer the user's question.

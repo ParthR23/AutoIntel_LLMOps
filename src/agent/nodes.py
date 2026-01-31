@@ -1,4 +1,3 @@
-# src/agent/nodes.py
 from src.tools.car_api import car_service_api
 from src.agent.state import VehicleDetails, AgentState
 from langchain_groq import ChatGroq
