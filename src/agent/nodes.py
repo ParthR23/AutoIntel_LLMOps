@@ -12,7 +12,7 @@ extractor = llm.with_structured_output(VehicleDetails)
 
 # RAG System Prompt
 RAG_SYSTEM_PROMPT = """
-You are a highly skilled Hyundai Service Assistant. 
+You are a highly skilled Automobile Service Assistant. 
 Your goal is to provide accurate technical information based ONLY on the provided manual context.
 
 CONTEXT FROM MANUAL:
