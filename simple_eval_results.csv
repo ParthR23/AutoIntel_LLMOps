@@ -1,0 +1,7 @@
+question,expected,generated,faithfulness_score,relevancy_score,contains_expected_info
+What is the recommended tire pressure?,The recommended tire pressure is 240 kPa (35 psi) for front and 230 kPa (33 psi) for rear under normal load.,"The recommended tire pressure can be found in the ""Tire and wheels"" section in chapter 2. Specifically, it is listed as: 
+- Front: 240 (35) kPa (psi) for full size tire and 250 (35) kPa (psi) for spare tire
+- Rear: 230 (33) kPa (psi) for full size tire and 250 (36) kPa (psi) for full size tire. 
+Additionally, it is recommended to check the tire pressure on the label attached to the driver's side center pillar.",0.5714285714285714,0.6666666666666666,True
+What type of engine oil is recommended?,"SAE 0W-20 (API Latest, ILSAC Latest) is recommended for better fuel economy.","According to the manual, the recommended engine oil viscosity is SAE 0W-20 (API Latest (ILSAC Latest)) for better fuel economy. However, if this oil is not available, the proper engine oil can be selected using the engine oil viscosity chart, which includes options such as 20W-50, 15W-40, 10W-30, 0W-20, 0W-30, 5W-20, and 5W-30. (Source: 2-14 Vehicle Information)",0.2,0.4,True
+What is the wheel lug nut torque specification?,"The wheel lug nut torque is 11~13 kgf·m (79~94 lbf·ft, 107~127 N·m).","The wheel lug nut torque specification is 11~13 (79~94, 107~127) kgf m (lbf ft, N m). (Source: 2-12 Vehicle Information)",0.75,0.8,True

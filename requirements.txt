@@ -1,19 +1,23 @@
-# Core Agent & LLM (LTS Stable Versions)
-langchain>=1.0.0
-langgraph>=1.0.0
+# --- Core Framework ---
+langchain>=0.3.0
+langgraph>=0.2.0
 langchain-groq>=0.2.0
 langchain-pinecone>=0.2.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# --- Vector Database & Data ---
 pinecone-client>=5.0.0
+sentence-transformers>=3.0.0
 
-# LLMOps & Tracking
-dvc>=3.0.0
-mlflow>=2.15.0
-langsmith>=0.1.100
-ragas>=0.2.0
+# --- Frontend & API ---
+streamlit>=1.35.0
+requests>=2.31.0
 
-# Utilities
-python-dotenv
-pypdf
-tqdm
-fastapi
-uvicorn
+# --- LLMOps: Evaluation & Safety ---
+ragas>=0.1.10
+langsmith>=0.1.0
+pandas>=2.0.0
+
+# --- Utilities ---
+uuid>=1.30
