@@ -30,3 +30,6 @@
    git clone [https://github.com/yourusername/autointel-ai.git](https://github.com/yourusername/autointel-ai.git)
    cd autointel-ai
    pip install -r requirements.txt
+
+2. **Demo Video:**
+   https://www.loom.com/share/87f674e9489b4afdab03bfff8e729db7
